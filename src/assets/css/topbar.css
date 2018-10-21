@@ -1,0 +1,13 @@
+.header{
+    background: #064c8b;
+    display: flex;
+    justify-content: space-between;
+}
+.ant-menu{
+    background: #f7f9fa !important;
+    font-family: "Helvetica Neue",'Segoe UI', sans-serif !important;
+}
+.menu__number{
+    float: right;
+    margin-right: 20px;
+}

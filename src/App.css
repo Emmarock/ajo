@@ -1,0 +1,46 @@
+@import '~antd/dist/antd.css';
+.date__heading{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.date__heading h1{
+  font-size: 30px;
+  font-weight: 300;
+  /* margin-left: 30px; */
+  margin: 0;
+  margin-left: 30px;
+}
+.date__heading h1 span{
+
+}
+.issue_modal_detail{
+  margin-bottom: 20px;
+}
+
+/*Ant design overrides*/
+
+
+.ant-calendar-picker-icon:after {
+  color: rgb(107, 148, 187) !important;
+}
+.ant-collapse{
+  font-family: inherit;
+}
+.ant-calendar-picker-clear, .ant-calendar-picker-icon{
+  /*top:42% !important;*/
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+  padding: 12px 10px 12px 40px !important;
+}
+.ant-modal-body {
+  padding-top: 10px !important;
+}
+.ant-form-item{
+  margin-bottom: 6px !important;
+}
+.ant-table-tbody{
+  background: white;
+}
